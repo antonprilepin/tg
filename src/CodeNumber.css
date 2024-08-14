@@ -1,0 +1,62 @@
+.code-input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 3%;
+    margin-left: -8%;
+  }
+  
+  .code-input {
+    position: relative;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #212121;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    width: 130%;
+    height: 30px;
+  }
+  
+  .code-input::before,
+  .code-input::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  .code-input::before {
+    bottom: 50%;
+  }
+  
+  .code-input::after {
+    bottom: 50%;
+  }
+  
+  /* .code-input::placeholder {
+    color: #ccc;
+  } */
+  
+  .code-input:hover,
+  .code-input:focus {
+    border-color: #7b71c5;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .code-input-container{
+    width: 55%;
+    margin-left: -26%;
+    margin-top: 7%;
+  }
+    
+  }
+  /* Стили для ПК и других устройств */
+@media only screen and (min-width: 601px) {
+    
+  }

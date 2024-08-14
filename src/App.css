@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Roboto-Medium'; /* Название шрифта, которое вы можете использовать в своих стилях */
+  src: local('Roboto-Medium'), url('./Fonts/Roboto-Medium.woff') format('woff'); /* Путь к вашему файлу шрифта */
+  font-weight:normal;
+  font-style: normal;
+}
+body{
+  font-family: 'Roboto-Medium', Roboto-Medium;
+}
+.phone-input {
+  position: relative;
+  transition: border-color 1s ease; /* Плавный переход цвета границы в течение 0.5 секунды */
+}
+.phone-input.error {
+  border-color: red;
+  transition: border-color 1s;
+}
+
+.Apps {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+html{
+  background-color: #212121;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.imagge-tg {
+  width: 13%;
+}
+
+.title-text {
+  font-size: 110%;
+  margin-top: 2%;
+}
+
+.add-text {
+  font-size: 65%;
+  color: #aaaaaa;
+  white-space: pre-wrap;
+  margin-top: -1%;
+  font-weight:100;
+}
+
+.App-header {
+  background-color: #212121;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 5%;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.polevvod {
+  padding: 0%;
+  margin-top: -27%;
+  margin-left: -7%;
+}
+
+.button {
+  background-color: #7b71c5;
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10%;
+  margin-left: 1%;
+  width: 141%;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: #7b71c5d8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Стили для телефонов */
+@media only screen and (max-width: 600px) {
+  .polevvod {
+    padding: 10%;
+    margin-top: -1%;
+    margin-left: -25%;
+  }
+  .imagge-tg{
+    width:45%;
+    margin-top: -7%;
+  }
+  .title-text{
+    font-size: 120%;
+    margin-top: 7%;
+  }
+  .add-text{
+    font-size:90%;
+    margin-top: -3%;
+  }
+  .App-header{
+    margin-top: -4%;
+  }
+}
+
+
+
+/* Стили для ПК и других устройств */
+@media only screen and (min-width: 601px) {
+  .polevvod {
+    padding: 30%;
+  }
+  
+}

@@ -1,0 +1,60 @@
+/* Определение стилей для класса "highlight" */
+.code-input.highlight {
+    position: relative;
+}
+
+/* Определение анимации для класса "highlight" */
+@keyframes highlightAnimation {
+    0% {
+        border-color: red;
+    }
+    100% {
+        border-color: #2f2f2f; /* Используем currentColor для возвращения к текущему цвету */
+    }
+}
+
+/* Применение анимации для класса "highlight" */
+.code-input.highlight {
+    transition: border-color 2s ease; /* Добавляем плавный переход */
+    animation: highlightAnimation 2s forwards; /* Применяем анимацию изменения цвета */
+}
+  
+.add-text-auth{
+    font-size: 60%;
+    color: #aaaaaa;
+    white-space: pre-wrap;
+    text-align: center;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+.monkey-2{
+    width: 13%;
+    animation: 1s step-end;
+}
+
+.button{
+    margin-left: 1%;
+}
+@media only screen and (max-width: 600px) {
+    .monkey-2{
+        width: 35%;
+        margin-top: 10%;
+    }
+    .title-text-auth{
+        margin-top: 9%;
+    }
+    .add-text-auth{
+      font-size:75%;
+      margin-top: -3%;
+    }
+    .code-input-container{
+        margin-left: -25%;
+    }
+  }
+  /* Стили для ПК и других устройств */
+@media only screen and (min-width: 601px) {
+    .polevvod {
+      padding: 30%;
+    }
+  }

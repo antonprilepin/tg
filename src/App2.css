@@ -1,0 +1,70 @@
+.code-input-container {
+  position: relative;
+}
+.code-input.highlight-invalid {
+  border: 2px solid red;
+  transition: border 0.3s ease-in-out;
+}
+
+
+.app2-conteiner {
+    background-color: #212121;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+.monkey{
+    width: 13%;
+    margin-top: -7%;
+}
+
+.add-text2 {
+    font-size: 65%;
+    color: #aaaaaa;
+    white-space: pre-wrap;
+    margin-top: -2%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  
+  .button-code {
+    background-color: #7b71c5;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 7%;
+    margin-left: 1%;
+    width: 143%;
+    height: 50px;
+  }
+  .button-code:hover {
+    background-color: #7b71c5d8;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .monkey{
+      margin-top: 0%;
+      width: 35%;
+    }
+    .add-text2{
+      font-size:80%;
+      margin-top: 9%;
+      margin-left: 1%;
+    }
+    
+  }
+  /* Стили для ПК и других устройств */
+@media only screen and (min-width: 601px) {
+    .polevvod {
+      padding: 30%;
+    }
+  }
+  

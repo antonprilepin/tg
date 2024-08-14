@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91375e49.css",
+    "main.js": "/static/js/main.44c0684c.js",
+    "static/media/Roboto-Medium.woff": "/static/media/Roboto-Medium.092c6130df8fd2199888.woff",
+    "index.html": "/index.html",
+    "main.91375e49.css.map": "/static/css/main.91375e49.css.map",
+    "main.44c0684c.js.map": "/static/js/main.44c0684c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91375e49.css",
+    "static/js/main.44c0684c.js"
+  ]
+}

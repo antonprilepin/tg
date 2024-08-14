@@ -1,0 +1,40 @@
+/* CountryInput.css */
+.country-input-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+    margin: auto;
+    width: 110%;
+  }
+  
+  .label {
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .country-input {
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #212121;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    width: 130%; 
+    height: 57px; 
+
+  }
+  
+  .country-input::placeholder {
+    color: #ccc;
+  }
+  
+  .country-input:hover,
+  .country-input:focus {
+    border-color: #7b71c5;
+    position: relative;
+    transition: border-color 1s ease;
+  }
+  
